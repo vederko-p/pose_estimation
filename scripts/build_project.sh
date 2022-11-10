@@ -12,7 +12,7 @@ then
 fi
 
 cd $MODELS_DIR
-git clone https://github.com/WongKinYiu/yolov7.git # && cd yolov7
+git clone --branch pose https://github.com/WongKinYiu/yolov7.git  # && cd yolov7
 
 echo Install yolov7 requirements...
 # pip install -r requirements.txt
