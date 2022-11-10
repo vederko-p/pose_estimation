@@ -1,6 +1,6 @@
 # Install project requirements
 echo Install project requirements...
-# pip -r requirements.txt
+pip -r requirements.txt
 
 # Get yolo repository
 echo 'Download yolov7-pose repository...'
@@ -15,4 +15,4 @@ cd $MODELS_DIR
 git clone --branch pose https://github.com/WongKinYiu/yolov7.git  # && cd yolov7
 
 echo Install yolov7 requirements...
-# pip install -r requirements.txt
+pip install -r requirements.txt
