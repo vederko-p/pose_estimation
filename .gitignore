@@ -3,19 +3,7 @@
 .vscode
 
 # datasets
-data/chv
-data/safety_vest
-data/yolo_collected_datasets
-
-# dataset indexes
-src/dataset/last_indexes
-
-# cache
-src/common/__pycache__
-notebooks/.ipynb_checkpoints/
-src/utils/__pycache__/
-notebooks/temp.ipynb
-src/annots_formats/__pycache__/
+data/first_test_data
 
 # models
 src/models/yolov7
