@@ -8,3 +8,5 @@ data/first_test_data
 # models
 src/models/yolov7
 src/models/weights
+src/models/yolov7_detector
+src/models/yolov7_pose
