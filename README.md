@@ -8,7 +8,7 @@
 Склонировать репозиторий:
 
 ```
-git clone https://github.com/vederko-p/pose_estimation && cd pose_estimation
+git clone https://github.com/vederko-p/pose_estimation.git && cd pose_estimation
 ```
 
 Установить зависимости, скачать тестовые данные и веса моделей:
