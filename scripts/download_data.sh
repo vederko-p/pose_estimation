@@ -12,16 +12,4 @@ default_data_names=(
   first_test_data
 )
 
-check_and_mkdir $OUTPUT_DIR
-cd $OUTPUT_DIR
-
-
-for i in ${!default_data_files_ids[*]}
-do
-  file_id=${default_data_files_ids[i]}
-  file_name=${default_data_names[i]}
-  echo Download $file_name dataset...
-  gdown $file_id
-  unzip "$file_name.zip" -d $file_name
-  rm "$file_name.zip"
-done
+download_from_google_drive $OUTPUT_DIR $default_data_files_ids $default_data_names
