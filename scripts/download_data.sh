@@ -1,3 +1,5 @@
+. utils.sh
+
 # Download standard dataset
 
 OUTPUT_DIR="../data"

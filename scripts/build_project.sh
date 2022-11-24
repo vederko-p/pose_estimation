@@ -1,3 +1,6 @@
+. utils.sh
+
+
 # Install project requirements
 echo Install project requirements...
 pip install -r "../requirements.txt"
