@@ -12,4 +12,4 @@ default_data_names=(
   first_test_data
 )
 
-download_from_google_drive $default_data_files_ids $default_data_names $OUTPUT_DIR
+download_from_google_drive $OUTPUT_DIR $default_data_files_ids $default_data_names
