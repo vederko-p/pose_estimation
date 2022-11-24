@@ -3,8 +3,8 @@
 OUTPUT_DIR="../src/weights"
 
 weights_files_ids=(
-  1wuKA6OQNd7xEKJ1zzkBz-0NffSClwrdy
-  1GEBJDNXZyB3MYqUi2OXYc6xk0nQZ7-O6
+  1X17CVDdgBSDWk4pMxhYf3aoreiY2014I
+  1W-XQ9yVt6xtB0NgCzdjsR40II1plmQFH
 )
 
 weights_names=(
