@@ -3,14 +3,16 @@
 OUTPUT_DIR="../data"
 
 default_data_files_ids=(
-  1MyOyXlt-57IylUJm4tpVJiogXute6e40
+  1pVXgseThE0qA2zcVtkjIDceLzS2f23mA
 )
 
 default_data_names=(
   first_test_data
 )
 
+check_and_mkdir $OUTPUT_DIR
 cd $OUTPUT_DIR
+
 
 for i in ${!default_data_files_ids[*]}
 do
