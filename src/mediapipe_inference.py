@@ -6,7 +6,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
 
-VIDEO_FILEPATH = '../data/first_test_data/3_assasins_short.mp4'
+VIDEO_FILEPATH = '../data/first_test_data/1_workshop_1.mp4'
 
 
 def main():
