@@ -42,6 +42,8 @@ pip install -e .
 pip install mmdet
 
 
+cd -  # back to scripts directory
+
 # Get weights
 echo 'Download models weights...'
 . download_weights.sh
