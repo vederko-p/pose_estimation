@@ -28,3 +28,14 @@ check_and_mkdir $YV7P_directory
 git clone --branch pose  $YOLOV7_REPOSIROTY_LINK $YV7P_directory
 install_requirements $YV7P_directory
 
+
+# Get MMPose
+mmpose_directory="mmpose"
+echo 'Download mmpose'
+pip install openmim
+mim install mmcv-full
+git clone https://github.com/open-mmlab/mmpose.git && cd $mmpose_directory
+pip install -e .
+
+# Get MMDet as module
+pip install mmdet
