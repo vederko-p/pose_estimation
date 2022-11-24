@@ -6,8 +6,5 @@
 data/first_test_data
 
 # models
-src/models/yolov7_detector
-src/models/yolov7_pose
-
-# weights
-src/weights/
+src/models
+src/weights
