@@ -30,12 +30,10 @@ download_from_google_drive() {
 
   for i in ${!files_ids[*]}
   do
-    local file_id=${files_ids[i]}
-    local file_name=${files_names[i]}
     echo Download $file_name...
-    gdown $file_id
-    unzip "$file_name.zip" -d $file_name
-    rm "$file_name.zip"
+    gdown ${files_ids[i]}
+    unzip "${files_names[i]}.zip" -d ${files_names[i]}
+    rm "${files_names[i]}.zip"
   done
 
   cd -
