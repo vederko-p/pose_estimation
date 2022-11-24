@@ -1,1 +1,4 @@
-gdown=4.5.3
+gdown==4.5.3
+mediapipe==0.8.11
+matplotlib==3.6.2
+pyyaml==6.0
