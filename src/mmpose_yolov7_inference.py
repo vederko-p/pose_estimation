@@ -35,7 +35,6 @@ STRIDE = 32
 DEVICE = 'cuda:0'
 
 
-# VIDEO_PATH = '../data/first_test_data/3_assasins_short.mp4'
 VIDEO_PATH = '../data/first_test_data/1_workshop_1.mp4'
 SHOW = True
 OUT_VIDEO_ROOT = '../data'
